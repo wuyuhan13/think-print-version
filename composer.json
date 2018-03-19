@@ -1,0 +1,21 @@
+{
+    "name": "qsnh/think-print-version",
+    "description": "it will print thinkphp5 version when u excute php think version.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "小滕",
+            "email": "616896861@qq.com"
+        }
+    ],
+    "require": {}, 
+    "autoload": {
+        "psr-4": {
+            "Qsnh\\": "src"
+        },
+        "files": [
+            "autoload.php"
+        ]
+    }
+}
